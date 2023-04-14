@@ -27,7 +27,7 @@ export default {
   background-size: cover;
 }
 .icon-error-404 {
-  background-image: url(/img/ico-error-404.6bb36fd7.svg);
+  background-image: url(../../assets/images/background-galaxy.svg);
   width: 100%;
   height: 370px;
   background-repeat: no-repeat;
