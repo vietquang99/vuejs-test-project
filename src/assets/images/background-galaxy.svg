@@ -1,0 +1,34 @@
+<svg id="Group_30821" data-name="Group 30821" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366.005" height="768" viewBox="0 0 1366.005 768">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="1" r="0.987" gradientTransform="matrix(0.001, -1, 0.509, 0.001, -0.01, 1.499)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#612872"/>
+      <stop offset="1" stop-color="#281863"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="0.952" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#854ea7" stop-opacity="0"/>
+      <stop offset="1" stop-color="#854ea7"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_30820" data-name="Group 30820">
+    <rect id="Rectangle_16523" data-name="Rectangle 16523" width="1366" height="768" fill="url(#radial-gradient)"/>
+  </g>
+  <g id="Group_30819" data-name="Group 30819" transform="translate(-371.843 870.899)">
+    <circle id="Ellipse_2290" data-name="Ellipse 2290" cx="8.488" cy="8.488" r="8.488" transform="translate(837.823 -764.829)" fill="#854ea7"/>
+    <circle id="Ellipse_2297" data-name="Ellipse 2297" cx="6.334" cy="6.334" r="6.334" transform="translate(515.069 -261.464)" fill="#854ea7"/>
+    <circle id="Ellipse_2298" data-name="Ellipse 2298" cx="5.121" cy="5.121" r="5.121" transform="translate(1150.674 -658.853)" fill="#854ea7"/>
+    <circle id="Ellipse_2299" data-name="Ellipse 2299" cx="14.716" cy="14.716" r="14.716" transform="translate(1693.516 -177.76)" fill="#854ea7"/>
+    <circle id="Ellipse_2302" data-name="Ellipse 2302" cx="8.674" cy="8.674" r="8.674" transform="translate(901.084 -203.453)" fill="#854ea7"/>
+    <circle id="Ellipse_2303" data-name="Ellipse 2303" cx="5.121" cy="5.121" r="5.121" transform="translate(1710.073 -571.197)" fill="#854ea7"/>
+    <circle id="Ellipse_2316" data-name="Ellipse 2316" cx="5.121" cy="5.121" r="5.121" transform="translate(1349.073 -208.197)" fill="#854ea7"/>
+    <circle id="Ellipse_2305" data-name="Ellipse 2305" cx="11.039" cy="11.039" r="11.039" transform="translate(1429.771 -564.88)" fill="#854ea7"/>
+    <circle id="Ellipse_2317" data-name="Ellipse 2317" cx="11.039" cy="11.039" r="11.039" transform="translate(1715.771 -870.88)" fill="#854ea7"/>
+    <circle id="Ellipse_2308" data-name="Ellipse 2308" cx="5.121" cy="5.121" r="5.121" transform="translate(612.829 -699.939)" fill="#854ea7"/>
+    <circle id="Ellipse_2313" data-name="Ellipse 2313" cx="5.121" cy="5.121" r="5.121" transform="translate(583.829 -476.939)" fill="#854ea7"/>
+    <circle id="Ellipse_2309" data-name="Ellipse 2309" cx="5.121" cy="5.121" r="5.121" transform="translate(944.699 -597.845)" fill="#854ea7"/>
+    <circle id="Ellipse_2310" data-name="Ellipse 2310" cx="5.121" cy="5.121" r="5.121" transform="translate(1488.214 -768.939)" fill="#854ea7"/>
+    <circle id="Ellipse_2311" data-name="Ellipse 2311" cx="5.121" cy="5.121" r="5.121" transform="translate(733.304 -290.462)" fill="#854ea7"/>
+    <circle id="Ellipse_2312" data-name="Ellipse 2312" cx="5.121" cy="5.121" r="5.121" transform="translate(386.843 -119.181)" fill="#854ea7"/>
+  </g>
+  <path id="Path_452" data-name="Path 452" d="M4326.021-11182.489l81.1-63.314-74.341,70.428Z" transform="translate(-4112 11578)" fill="url(#linear-gradient)"/>
+  <path id="Path_453" data-name="Path 453" d="M4326.021-11182.489l81.1-63.314-74.341,70.428Z" transform="translate(-3347 11847)" fill="url(#linear-gradient)"/>
+</svg>
