@@ -7,12 +7,17 @@
     <div class="content color-white">
       Có thể trang đã bị xóa hoặc URL không đúng
     </div>
+    <!-- <msButton></msButton> -->
   </div>
 </template>
   
 <script>
+// import msButton from "../Button/MsButton.vue";
 export default {
   name: "Error404",
+  components: {
+    // msButton
+  },
 };
 </script>
   

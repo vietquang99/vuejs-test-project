@@ -1,15 +1,22 @@
 <template>
-    <button
-      class="ms-button btn"
-      :class="[type,text?'':'only-icon']"
-      :disabled="disabled || processing"
-      v-on="listeners"
+  <button
+    class="ms-button btn"
+    :class="[type, text ? '' : 'only-icon']"
+    :disabled="disabled || processing"
+    v-on="listeners"
+  >
+    <div :class="['icon24 icon left', leftIcon]" v-if="leftIcon">&nbsp;</div>
+    <div
+      class="text"
+      :class="[{ 'pl-0': leftIcon, 'pr-0': rightIcon }]"
+      v-if="text"
     >
-      <div :class="['icon24 icon left', leftIcon]" v-if="leftIcon">&nbsp;</div>
-      <div class="text" :class="[{'pl-0': leftIcon, 'pr-0': rightIcon}]" v-if="text">{{text}}</div>
-      <div :class="['icon24 icon right', rightIcon]" v-if="rightIcon"></div>
-    </button>
+      {{ text }}
+    </div>
+    <div :class="['icon24 icon right', rightIcon]" v-if="rightIcon"></div>
+  </button>
 </template>
+
 <script>
 export default {
   name: "msButton",
@@ -17,37 +24,37 @@ export default {
     //Text hiển thị
     text: {
       defualt: null,
-      type: String
+      type: String,
     },
     //Icon trái
     leftIcon: {
       default: null,
-      type: String
+      type: String,
     },
     //Icon phải
     rightIcon: {
       default: null,
-      type: String
+      type: String,
     },
     //Loại button gồm 3 loại primary/secondary/third/four để hiện thị style tương ứng
     type: {
       default: "primary",
-      type: String
+      type: String,
     },
     /**
      * Trạng thái button disabled
      */
     disabled: {
       default: false,
-      type: Boolean
+      type: Boolean,
     },
     /**
      * Cờ đánh dấu đang xử lý
      */
     processing: {
       default: false,
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
   data() {
     return {};
@@ -57,7 +64,7 @@ export default {
     listeners() {
       const me = this;
       return {
-        click: event => {
+        click: (event) => {
           let deplay = window._appConfig.buttonClickDeplayMilliseconds;
           if (deplay && deplay > 0) {
             if (me._clicking) {
@@ -72,20 +79,21 @@ export default {
 
           me.$emit("click", event);
         },
-        mousedown: event => {
+        mousedown: (event) => {
           event.preventDefault();
         },
-        keydown: event => {
+        keydown: (event) => {
           me.$emit("keydown", event);
         },
-        focus: event => {
+        focus: (event) => {
           me.$emit("focus", event);
-        }
+        },
       };
-    }
-  }
+    },
+  },
 };
 </script>
-<style scoped lang="scss">
+
+<style scoped>
 @import "../../assets/css/common.scss";
 </style>
