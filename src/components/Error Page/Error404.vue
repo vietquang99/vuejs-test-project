@@ -18,7 +18,7 @@ export default {
   
 <style scoped>
 .container {
-  background-image: url(/img/background-galaxy.03ee2f72.svg);
+  background-image: url(~@/assets/images/background-galaxy.svg);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -27,7 +27,7 @@ export default {
   background-size: cover;
 }
 .icon-error-404 {
-  background-image: url(../../assets/images/background-galaxy.svg);
+  background-image: url(~@/assets/icon/ico-error-404.svg);
   width: 100%;
   height: 370px;
   background-repeat: no-repeat;
