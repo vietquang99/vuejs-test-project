@@ -35,12 +35,12 @@ export default {
 }
 .icon-error-404 {
   background-image: url(~@/assets/icon/ico-error-404.svg);
-  width: 100%;
   height: 370px;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 35px;
   margin-top: 110px;
+  background-size: contain;
 }
 
 .title {
