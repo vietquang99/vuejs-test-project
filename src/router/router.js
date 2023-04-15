@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-// import Home from '@/components/HelloWorld.vue'
+import HomePage from '@/components/HomePage.vue'
 // import About from '@/components/HelloWorld.vue'
 // import Contact from '@/components/HelloWorld.vue'
 import Error from '@/components/Error Page/Error404.vue'
@@ -8,7 +8,7 @@ import Error from '@/components/Error Page/Error404.vue'
 const routes = [
     {
         path: '/',
-        component: Error
+        component: HomePage
     },
     {
         path: '/about',
